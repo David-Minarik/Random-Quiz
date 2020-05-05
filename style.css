@@ -1,0 +1,37 @@
+body {
+    background-color: #FFF5E6;
+    
+    margin-right:0px;
+    margin-top:0px;
+    border-right:100px solid #945E37;
+    padding-left:20px;
+    border-left:100px solid #945E37;
+ 
+}
+
+h1{
+    color: #359EFC;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+
+
+    
+}
+
+
+h2{
+    text-align: center;
+    color: #B0843E;
+
+}
+img {
+    border:1px solid #359EFC;
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+input{text-align: center;}
+.center{text-align: center;}

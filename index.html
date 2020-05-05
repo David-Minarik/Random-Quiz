@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Questions</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <form onsubmit="return handleSubmit()">
+
+        <h1>Questions</h1>
+
+        <h2>Question 1</h2>
+        <p class="center">
+            <img src="half-full-glass.jpg" alt="half-full" height="200" width="150">
+            <label for="glass">How full is the glass?:</label> <br>
+            <input type="text" id="glass" name="glass"><br><br>
+        </p>
+
+        <h2>Question 2</h2>
+        <p class="center"> 
+            <img src="sticks.jpg" alt="sticks" height="150" width="150">
+            <label for="sticks">How many sticks are there?:</label> <br>
+            <input type="text" id="sticks" name="sticks"><br><br>
+        </p>
+
+        <h2>Question 3</h2>
+        <p class="center"> 
+            <label for="thunder">What rockband sang a song about being struck by thunder?:</label> <br>
+            <input type="text" id="thunder" name="thunder"><br><br>
+        </p>
+
+        <h2>Question 4</h2>
+        <p class="center">
+            <label for="obama">Who was the President of the USA between 2008?</label> <br>
+            <input type="text" id="obama" name="obama"><br><br>
+        </p>
+
+        <h2>Question 5</h2>
+        <p class="center"> 
+            <label for="ABS">What acronym or term is used to describe the automatic car breaking system?</label> <br>
+            <input type="text" id="ABS" name="ABS"><br><br>
+        </p>
+
+        <h2>Question 6</h2>
+        <p class="center">
+        <label for="sftware">Name a coding system.</label> <br>
+            <input type="text" id="sftware" name="sftware"><br><br></p>
+
+        <button>Mark Quiz</button>
+    </form>
+
+    <h2>Results</h2>
+
+    <ol>
+    <li id="q1"></li>
+    <li id="q2"></li>
+    <li id="q3"></li>
+    <li id="q4"></li>
+    <li id="q5"></li>
+    <li id="q6"></li>
+    </ol>
+  
+    <p id="percentage">
+    
+    </p>
+
+<p id="thisQuizHasJustWastedYourTime"></p>
+    
+</body>
+
+</html>
